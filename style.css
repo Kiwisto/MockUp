@@ -26,6 +26,15 @@ body {
 }
 
 .button2 {
+  margin-top: 25px;
+  margin-left: 25px;
+  height: 50px;
+  width: 100px;
+  background-color: #FC819E;
+  border-radius: 10px;
+}
+
+.button3 {
   margin-left: 25px;
   height: 50px;
   width: 100px;

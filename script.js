@@ -17,7 +17,7 @@ var msgs = [
 ]
 
 function update() {
-  fetch('https://d28cda53-cbc7-4b58-8952-ac3d871dc932-00-6d031vmwyvqe.janeway.replit.dev/msg/getAll')
+  fetch('https://messageboard-zuzw.onrender.com/msg/getAll')
     .then(function(response) {
       return response.json();
     })
@@ -46,7 +46,7 @@ function update() {
 
 function post() {
   var msg = document.getElementById("textarea").value;
-  fetch('https://d28cda53-cbc7-4b58-8952-ac3d871dc932-00-6d031vmwyvqe.janeway.replit.dev/msg/post/' + msg)
+  fetch('https://messageboard-zuzw.onrender.com/msg/post/' + msg)
     .then(function(response) {
       return response.json();
     })
@@ -55,7 +55,7 @@ function post() {
     });
 }
 
-fetch('https://d28cda53-cbc7-4b58-8952-ac3d871dc932-00-6d031vmwyvqe.janeway.replit.dev/msg/getAll')
+fetch('https://messageboard-zuzw.onrender.com/msg/getAll')
   .then(function(response) {
     return response.json();
   })
